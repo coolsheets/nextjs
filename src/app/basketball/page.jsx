@@ -1,10 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
 const BasketballPage = async () => {
     return (
         <>
             <div>Basketball Page</div>
-            <a href="/">back to main page</a>
+            <Link href="/">back to main page</a>
             {/* EXAMPLE OF BAD WAY TO NAVIGATE - use the Link component instead*/}
         </>
     )
