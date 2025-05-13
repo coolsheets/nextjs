@@ -10,6 +10,10 @@ export default function Home() {
       <Link href="/users">See Users</Link>
       <p></p>
       <Link href="/todos">See Todos</Link>
+      <p></p>
+      <Link href="/basketball">See Basketball</Link>
+      <p></p>
+      <Link href="/about">about us</Link>
       <p>Timestamp: {new Date().toLocaleTimeString()}</p> 
       {/* The above timestamp is to show the difference between SSG vs SSR (running as dev vs running off build) */}
       <CheckTipOfTheDay/>
