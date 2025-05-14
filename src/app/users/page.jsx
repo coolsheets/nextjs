@@ -5,7 +5,7 @@ const UserPage = () => {
     return (
         <>
             <div>User Awesome Page</div>
-            <Link href="/">back to main page</a> 
+            <Link href="/">back to main page</Link> 
             {/* EXAMPLE OF BAD WAY TO NAVIGATE - use the Link component instead*/}
         </>
     )

@@ -5,7 +5,7 @@ const About = async () => {
     return (
         <>
             <h1>About Page</h1>;
-            <Link href="/">back to main page</a>;
+            <Link href="/">back to main page</Link>;
         </>
     )
 }
